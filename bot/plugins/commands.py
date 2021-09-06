@@ -28,11 +28,7 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = f"<b>{file_name}</b> /n ━═━═━═━═━═━═━═━═━═
-
-➠Cʜᴀɴɴᴇʟ : https://t.me/new_movies_HD_movies
-
-➠Gʀᴏᴜᴘ : https://t.me/movies_hut_chat", 
+                caption = f"{file_name} /n @movies_hut_chat
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
